@@ -1,8 +1,8 @@
 
 // -- Global settings
 var settings = {
-    'siteName' : 'yoursitename',
-    'sessionSecret' : 'sessionSecret',
+    'siteName' : 'AR Drone',
+    'sessionSecret' : '9001',
     'uri' : 'http://localhost', // Without trailing /
     'port' : process.env.PORT || 3000,
     'debug' : 0,

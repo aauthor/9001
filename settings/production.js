@@ -1,6 +1,6 @@
 
-var fs              = require("fs"),
-    connectAssets   = require('connect-assets');
+//var fs              = require("fs"),
+    //connectAssets   = require('connect-assets');
     //gzippo          = require('gzippo');
 
 module.exports = function(app, express) {
