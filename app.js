@@ -21,9 +21,9 @@ require('./bootstrap').boot(app);
 require('./routes/index')(app);
 
 // -- Only listen on $ node app.js
-logo.print();
+//logo.print();
 
 http.createServer(app).listen(settings.port, function(){
-    console.log("Express server listening on "+" port %d ".bold.inverse.red+" in " + " %s mode ".bold.inverse.green + " //", settings.port, env);
-    console.log('Using Express %s...', express.version.red.bold);
+    console.log("Express server listening on port %d in %s mode //", settings.port, env);
+    console.log('Using Express %s...', express.version);
 });
