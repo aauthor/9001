@@ -4,6 +4,7 @@ var express     = require('express'),
     http        = require('http'),
     logo        = require('./lib/logo'),
     color       = require('colors');
+    fly         = require('fly');
 
 // -- Create Express instance and export
 var app         = express(),

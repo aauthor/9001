@@ -11,6 +11,8 @@ module.exports = function(app) {
         });
     });
 
+    app.get('/api/fly', fly);
+
     /*
      * Errors
      */
